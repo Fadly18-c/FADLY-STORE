@@ -1,0 +1,15 @@
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9') no-repeat center center/cover;
+  height: 80vh;
+}
+
+.hero h1, .hero p {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Produk Card Hover */
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
